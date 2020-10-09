@@ -5,14 +5,14 @@ local assetHelper = asset.require('util/asset_helper')
 local textures = asset.syncedResource({
     Name = "Nbody Textures",
     Type = "HttpSynchronization",
-    Identifier = "adlerplanetarium_Pleiades_Nbody_textures",
+    Identifier = "adlerplanetarium_Pleiades_Nbody1_textures",
     Version = 1
 })
  
 local speck = asset.syncedResource({
     Name = "Nbody Speck Files",
     Type = "HttpSynchronization",
-    Identifier = "adlerplanetarium_Pleiades_Nbody_speck",
+    Identifier = "adlerplanetarium_Pleiades_Nbody1_speck",
     Version = 1
 })
  
@@ -24,7 +24,7 @@ local object = {
         Color = { 1.0, 1.0, 1.0 },
         Opacity = 1.0,
         ScaleFactor = 340.0,
-        File = speck .. "/Pleiades_Nbody.speck",
+        File = speck .. "/Pleiades_Nbody1.speck",
         ColorMap = speck .. "/viridis.cmap",
         ColorOption = { "logLscaled", "logRscaled" },
         ColorRange = { { 0.0, 1.0 }, { 0.0, 1.0 } },
